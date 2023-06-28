@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from '../Card/Card'
+import style from '../Cards/Cards.module.css'
 
 const CardList = () => {
   const [objetos, setObjetos] = useState([]);
@@ -17,12 +18,13 @@ const CardList = () => {
   }, []);
 
   return (
-    <div>
+    <div className={style.cardContainer}>
       {objetos.map(objeto => (
         <Card key={objeto.id}
             imagen={objeto.imagen}
             pizza={objeto.pizza}
-            precio={objeto.precio} />
+            precio={objeto.precio}
+            descripcion={objeto.descripcion} />
       ))}
     </div>
   );
