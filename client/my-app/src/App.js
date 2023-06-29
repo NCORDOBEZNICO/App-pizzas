@@ -1,12 +1,9 @@
-import { useState } from 'react';
 import './App.css';
-import Card from './Components/Card/Card';
 import { Routes, Route } from 'react-router-dom';
-import Cards from './Components/Cards/Cards';
 import Landing from './Components/Landing/Landing';
+import Home from './Components/Home/Home';
 
 function App() {
-const [id, setId] = useState('')
 
 
 
@@ -16,7 +13,7 @@ const [id, setId] = useState('')
     <div className="App">
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/home" element={<Cards />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </div>
   );

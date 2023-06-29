@@ -1,0 +1,44 @@
+
+.containerMain {
+    width: 50vh;
+    height: 50vh;
+    border: 2px solid black;
+    background: rgba(3, 35, 54);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.containerChild {
+    margin: 0 auto;
+    width: 100%;
+    height: 20%;
+}
+.containerMain .containerChild h1 {
+    position: relative;
+    bottom: 20vh;
+    color: #fff;
+    background: #0000007e;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+
+.containerMain .containerChild .boton {
+        background: #928a11;
+        -webkit-border-radius: 54;
+        -moz-border-radius: 54;
+        border-radius: 54px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .containerMain .containerChild .boton:hover {
+        background: #ccc016;
+        text-decoration: none;
+      }
+
