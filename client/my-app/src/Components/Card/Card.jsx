@@ -1,11 +1,5 @@
 import style from '../Card/Card.module.css'
 
-
-
-
-
-
-
 const Card = ({ id, pizza, precio, imagen, descripcion }) => {
 
     return(

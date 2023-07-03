@@ -4,3 +4,16 @@
     grid-template-columns: repeat(5, 1fr) ;
     gap: 2em;
 }
+
+@media screen and (max-width: 800px){
+
+    .cardContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px   ;
+       
+        
+    }
+    
+}
