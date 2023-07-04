@@ -1,20 +1,20 @@
 import style from '../Card/Card.module.css'
 
-const Card = ({ pizza, precio, imagen, descripcion, }) => {
+const CardBebidas= ({ bebida, valor, img, descrip, }) => {
 
     return(
         <div className={style.container1}>
           <div className={`${style.face} ${style.front}`}>
-            <img src={imagen} alt={pizza} />
-            <h2> {pizza}🍕 </h2>
+            <img src={img} alt={bebida} />
+            <h2> {bebida}🍻  </h2>
           </div>
           <div className={`${style.face} ${style.back}`}>
-            <h2> $ {precio }</h2>
-            <p>{descripcion}</p>
+            <h2> $ {valor}</h2>
+            <p>{descrip}</p>
           </div>
   
       </div>
     );
   };
 
-export default Card;
+export default CardBebidas;

@@ -10,6 +10,11 @@
 
 }
 
+.divisor {
+    margin-top: 2em;
+    border-bottom: 1px solid #fffcfc;
+}
+
 
 @media screen and (max-width: 800px){
     .tittle{

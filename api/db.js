@@ -24,6 +24,23 @@ let dataBase = [
     { id: 19, pizza: 'Napolitana', precio: 2000, imagen: 'https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-tomate-albahaca-y-mozzarella-1080x671.jpg', descripcion: 'La mejor de las mejores pizzas del condado hecha por una persona con ganas de vivir' },
     { id: 20, pizza: 'Roquefort', precio: 2000, imagen: 'https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-tomate-albahaca-y-mozzarella-1080x671.jpg', descripcion: 'La mejor de las mejores pizzas del condado hecha por una persona con ganas de vivir' },
     { id: 21, pizza: 'Huevo', precio: 2000, imagen: 'https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-tomate-albahaca-y-mozzarella-1080x671.jpg', descripcion: 'La mejor de las mejores pizzas del condado hecha por una persona con ganas de vivir' },
+    { id: 22, bebida: 'Coca Cola', valor: 1000, img: 'https://cdn-3.expansion.mx/dims4/default/1b14363/2147483647/strip/true/crop/2096x1430+0+0/resize/1200x819!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F95%2F6c%2F722abfb544dcb4a46b9ca967a1ef%2Fistock-499925476.jpg', descrip: 'Refresco carbonatado de cola' },
+    { id: 23, bebida: 'Agua Mineral', valor: 800, img: 'https://d3ugyf2ht6aenh.cloudfront.net/stores/798/865/products/48146782-8488201d17fe506c1f16639330522874-640-0.webp', descrip: 'Agua saborizada' },
+    { id: 24, bebida: 'Agua Saborizada', valor: 1000, img: 'https://jumboargentina.vtexassets.com/arquivos/ids/782893/Agua-Saborizada-Aquarius-Pera-2-25-Lt-2-468830.jpg?v=638206690050300000', descrip: 'De distintos sabores: Manzana, Pera, Limon' },
+    { id: 25, bebida: 'Quilmes negra', valor: 800, img: 'https://d3ugyf2ht6aenh.cloudfront.net/stores/798/865/products/quilmes1-305f1b49f7a52781ca16739793409986-640-0.webp', descrip: '1lts ' },
+    { id: 26, bebida: 'Andes Rubia', valor: 800, img: 'https://www.bridgerconway.com/wp-content/uploads/2020/07/BRIDGER-CONWAY-1.jpg', descrip: '1lts ' },
+    { id: 28, bebida: 'Andes Roja', valor: 800, img: 'https://i.pinimg.com/originals/6e/60/24/6e6024cb307d6aa8637870778e27e772.jpg', descrip: '1lts ' },
+    { id: 29, bebida: 'Andes Negra', valor: 800, img: 'https://www.lavoz.com.ar/resizer/OiEiFwZR7Dn5bww9AgTIQ0bfxhM=/980x640/smart/filters:quality(75):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/Y2YOM25JWRAPJEFB4S2YBYB524.jpg', descrip: '1lts ' },
+    { id: 30, bebida: 'Andes Ipa Imperial', valor: 800, img: 'https://supercristian.com.ar/wp-content/uploads/2021/02/88541.jpg', descrip: '1lts ' },
+    { id: 31, bebida: 'Stella Artois', valor: 800, img: 'https://www.stellaartois.com.mx/sites/g/files/seuoyk556/files/2022-08/stella-artois%201.png.webp', descrip: '1lts ' },
+    { id: 31, bebida: 'Brahma', valor: 800, img: 'https://pxc.cdn.ellitoral.com.ar/litoral/052021/1622224065224/0020_049%20(2)%20(1).jpg', descrip: '1lts ' },
+
+
+
+
+
+    
+
 ]
 
 module.exports = dataBase;

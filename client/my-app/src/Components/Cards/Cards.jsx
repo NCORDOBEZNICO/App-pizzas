@@ -18,16 +18,20 @@ const CardList = () => {
   }, []);
 
   return (
-    <div className={style.cardContainer}>
-      {objetos.map(objeto => (
-        <Card key={objeto.id}
-            imagen={objeto.imagen}
-            pizza={objeto.pizza}
-            precio={objeto.precio}
-            descripcion={objeto.descripcion} />
-      ))}
-    </div>
-  );
-};
+<div className={style.cardContainer}>
+{objetos
+  .filter(objeto => objeto.hasOwnProperty('pizza', 'imagen', 'precio', 'descrip'))
+  .map(objeto => (
+    <Card
+      key={objeto.id}
+      imagen={objeto.imagen}
+      pizza={objeto.pizza}
+      precio={objeto.precio}
+      descripcion={objeto.descripcion}
+    />
+  ))}
+</div>
+);
+  }
 
 export default CardList;
